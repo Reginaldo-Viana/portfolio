@@ -1,41 +1,43 @@
-# Portfólio | Reginaldo Viana
+# Reginaldo Viana | Software Engineer - Portfolio
 
-Portfólio profissional estático desenvolvido com HTML, CSS e JavaScript. Apresenta projetos em Java e Spring Boot, Angular e automação de testes.
+Portfólio profissional de **Reginaldo Viana - Backend Java Developer** com background em SDET / Integrated Engineer em fintech e banking (CI&T, WEX Brasil Tech, 【entity-Itaú¦canonical_name=Itaú】).
 
-## Estrutura
+Foco em **Java, Spring Boot, REST APIs, REST Assured, CI/CD e AI-Assisted Development** com Claude Code, GitHub Copilot, ChatGPT e Gemini.
 
-- `index.html` — conteúdo e estrutura da página
-- `styles.css` — estilos e responsividade
-- `script.js` — pequenos ajustes de comportamento
+🔗 **Live:** https://reginaldo-viana.github.io/portfolio/
+🔗 **LinkedIn:** https://www.linkedin.com/in/reginaldoviana
+🔗 **GitHub:** https://github.com/Reginaldo-Viana
 
-## Como rodar localmente
+### ✨ O que tem aqui
 
-Abra o terminal na pasta do repositório e execute:
+- **API Health Platform** - Plataforma em Java + REST Assured que valida diariamente todas as APIs e atualiza massas de teste (projeto em desenvolvimento, baseado no trabalho atual na CI&T)
+- **Fintech Transaction API** - API de carteira digital com PIX, idempotência e JWT (Spring Boot + PostgreSQL)
+- Projetos legados de Angular e Spring Boot
+
+### 🛠️ Tech Stack
+
+**Backend:** Java 21, Spring Boot 3, REST APIs, Spring Data JPA, JWT, Flyway
+**Frontend:** Angular, TypeScript, Phoenix
+**Quality & Platform:** REST Assured, Playwright, Selenium, Robot Framework, Testcontainers, JUnit
+**DevOps & AI:** GitHub Actions, GitLab, Jenkins, AWS, Docker, Claude Code, GitHub Copilot, ChatGPT, Gemini
+
+### 🚀 Estrutura
+
+- `index.html` — Portfolio completo (HTML + CSS inline, sem dependências)
+- `styles.css` — Legado (não é mais necessário na nova versão)
+- `script.js` — Legado (ano dinâmico agora está inline)
+
+A nova versão é **100% estática e self-contained**, ideal para GitHub Pages.
+
+### 💻 Como rodar localmente
 
 ```bash
+# Clone
+git clone https://github.com/Reginaldo-Viana/portfolio.git
+cd portfolio
+
+# Roda com Python
 python -m http.server 8000
-```
 
-Abra no navegador:
-
-```text
+# Abra
 http://localhost:8000
-```
-
-## Como publicar no GitHub Pages
-
-O repositório é estático e não precisa de instalação de dependências nem etapa de build.
-
-1. No GitHub, abra `Settings` > `Pages`.
-2. Em `Build and deployment`, selecione `Deploy from a branch`.
-3. Selecione a branch `main` e a pasta `/(root)`, depois salve.
-4. Aguarde a conclusão da publicação. O endereço esperado é `https://reginaldo-viana.github.io/portfolio/`.
-
-Se a página retornar 404, confira o status do deploy na seção `Pages` e na aba `Actions` do repositório.
-
-## Personalizar
-
-Edite `index.html` para atualizar nome, apresentação, habilidades, contatos e os links e descrições dos projetos. O perfil público usado como contato é [github.com/Reginaldo-Viana](https://github.com/Reginaldo-Viana).
-
-Altere cores e layout em `styles.css`. O `script.js` atualiza automaticamente o ano do rodapé.
-# portfolio
